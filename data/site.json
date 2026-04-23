@@ -124,11 +124,11 @@
     "sectionTitle": "",
     "sectionDescription": "",
     "emptyText": "영상 항목을 추가하면 이 영역이 자동으로 채워집니다.",
-    "visualPreset": "reference",
+    "visualPreset": "minimal",
     "displayMode": "category-stack",
     "gridColumns": 3,
     "categoryStackColumns": 4,
-    "categoryStackTypeFilterEnabled": false,
+    "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
       "포트폴리오 롱폼",
@@ -291,7 +291,7 @@
   },
   "contact": {
     "eyebrow": "CONTACT",
-    "title": "디스코드나 이메일로 연락주세요",
+    "title": "디스코드나 \n이메일로 연락주세요",
     "titleAccent": "디스코드",
     "description": "급한 일이 생기지 않는 이상 연락 매우 빠르게 됩니다\n영상에 따라 다르겠지만 작업은 보통 3~4일 소요됩니다",
     "primaryCard": {
