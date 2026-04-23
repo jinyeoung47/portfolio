@@ -160,6 +160,8 @@ const DEFAULT_DATA = {
   freeContent: "",
 };
 
+const jsonPath = "data/site.json";
+const exampleJsonPath = "data/example.site.json";
 const WORKS_TYPE_LABELS = {
   long: "롱폼",
   short: "숏폼",
@@ -741,6 +743,12 @@ function readAdminPreviewData() {
     console.warn("Failed to read admin preview data:", error);
     return null;
   }
+}
+
+async function fetchJsonData(path) {
+  const response = await fetch(path, { cache: "no-cache" });
+  if (!response.ok) throw new Error(`${path} HTTP ${response.status}`);
+  return response.json();
 }
 
 function applyAdminPreviewData(raw) {
@@ -1841,10 +1849,49 @@ function renderFreeContent() {
   copy.textContent = content;
 }
 
+function compactMetaText(value) {
+  return String(value || "").replace(/\s+/g, " ").trim();
+}
+
+function getCurrentPageFile() {
+  const file = window.location.pathname.split("/").pop();
+  return file || "index.html";
+}
+
+function getCurrentPageMeta() {
+  const siteTitle = compactMetaText(DATA.site.title) || DEFAULT_DATA.site.title;
+  const siteDescription = compactMetaText(DATA.site.description) || DEFAULT_DATA.site.description;
+  const pageFile = getCurrentPageFile();
+
+  if (pageFile === "pricing.html") {
+    return {
+      title: "가격 페이지",
+      description: compactMetaText(DATA.pricing.description) || siteDescription,
+    };
+  }
+
+  if (pageFile === "contact.html") {
+    return {
+      title: "문의 페이지",
+      description: compactMetaText(DATA.contact.description) || siteDescription,
+    };
+  }
+
+  return {
+    title: siteTitle,
+    description: siteDescription,
+  };
+}
+
+function setMetaContent(selector, value) {
+  const element = document.querySelector(selector);
+  if (element) element.setAttribute("content", value);
+}
+
 function applySiteMeta() {
-  document.title = DATA.site.title || DEFAULT_DATA.site.title;
-  const desc = $("#site-desc");
-  if (desc) desc.setAttribute("content", DATA.site.description || "");
+  const meta = getCurrentPageMeta();
+  document.title = meta.title;
+  setMetaContent("#site-desc", meta.description);
 }
 
 function setMobileMenu(open) {
@@ -1944,24 +1991,14 @@ async function boot() {
   }
 
   try {
-    const response = await fetch("data/site.json", { cache: "no-cache" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const raw = await response.json();
-    DATA = normalizeData(raw);
+    DATA = normalizeData(await fetchJsonData(jsonPath));
   } catch (error) {
     console.error("Failed to load data/site.json:", error);
-    DATA = clone(DEFAULT_DATA);
-    const main = $("#site-main");
-    if (main) {
-      main.innerHTML = `
-        <section class="mx-auto flex min-h-screen max-w-screen-md items-center justify-center px-6 text-center">
-          <div class="rounded-2xl border border-outline-variant/40 bg-surface-container-low p-8">
-            <h1 class="mb-4 text-3xl font-bold text-white">데이터를 불러오지 못했습니다.</h1>
-            <p class="text-on-surface-variant">data/site.json 경로와 JSON 형식을 확인해주세요.</p>
-          </div>
-        </section>
-      `;
-      return;
+    try {
+      DATA = normalizeData(await fetchJsonData(exampleJsonPath));
+    } catch (fallbackError) {
+      console.error("Failed to load data/example.site.json:", fallbackError);
+      DATA = clone(DEFAULT_DATA);
     }
   }
 
