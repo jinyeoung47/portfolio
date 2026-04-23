@@ -201,12 +201,13 @@
         "badge": "",
         "icon": "smartphone",
         "title": "숏폼 (Short-form)",
-        "description": "YouTube Shorts, TikTok, Reels 등 트렌디하고 영상미가 필요한 콘텐츠",
+        "description": "",
         "price": "₩15,000",
         "priceUnit": "/ 편",
         "features": [
           "최대 60초 분량",
-          "클립, 간단한 쇼츠"
+          "클립, 간단한 쇼츠",
+          "수정 3회 무료"
         ],
         "cta": {
           "label": "",
