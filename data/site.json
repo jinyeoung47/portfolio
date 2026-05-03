@@ -131,10 +131,18 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
+      "이름뭘로 WhatName",
       "롱폼",
       "숏츠"
     ],
     "categoryEntries": [
+      {
+        "category": "이름뭘로 WhatName",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
       {
         "category": "롱폼",
         "title": "",
@@ -151,6 +159,13 @@
       }
     ],
     "videos": [
+      {
+        "id": "53F33c6r2dM",
+        "title": "미녕이 포트폴리오",
+        "date": "",
+        "type": "long",
+        "category": "이름뭘로 WhatName"
+      },
       {
         "id": "iMqeophov9Q",
         "title": "늦잠 음식 먹방 포트폴리오",
