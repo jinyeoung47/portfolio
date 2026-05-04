@@ -131,18 +131,10 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
-      "이름뭘로 WhatName",
       "롱폼",
       "숏츠"
     ],
     "categoryEntries": [
-      {
-        "category": "이름뭘로 WhatName",
-        "title": "",
-        "meta": "",
-        "columns": null,
-        "singleColumnSize": ""
-      },
       {
         "category": "롱폼",
         "title": "",
@@ -164,7 +156,7 @@
         "title": "미녕이 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "이름뭘로 WhatName"
+        "category": "롱폼"
       },
       {
         "id": "iMqeophov9Q",
