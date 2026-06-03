@@ -141,10 +141,18 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
+      "부키부키 키리누키 채널",
       "롱폼",
       "숏츠"
     ],
     "categoryEntries": [
+      {
+        "category": "부키부키 키리누키 채널",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
       {
         "category": "롱폼",
         "title": "",
@@ -161,6 +169,13 @@
       }
     ],
     "videos": [
+      {
+        "id": "vLXkiRBFyCI",
+        "title": "왜 나한테만 엄격한건데",
+        "date": "",
+        "type": "short",
+        "category": "부키부키 키리누키 채널"
+      },
       {
         "id": "QLj5IH4DeuM",
         "title": "미녕이 키리누키 포트폴리오",
