@@ -141,13 +141,13 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
-      "롱폼",
+      "건붕이",
       "포트폴리오",
       "숏츠"
     ],
     "categoryEntries": [
       {
-        "category": "롱폼",
+        "category": "건붕이",
         "title": "",
         "meta": "",
         "columns": null,
@@ -170,6 +170,13 @@
     ],
     "videos": [
       {
+        "id": "QAWJQj37xRc",
+        "title": "모르면 손해보는 뉴비를 위한 스타레일 4.4 요약 및 픽업 공략",
+        "date": "2026-07-05",
+        "type": "long",
+        "category": "건붕이"
+      },
+      {
         "id": "FKPHYjnBwMI",
         "title": "게임하다가 화장실 가면 생기는 일",
         "date": "",
@@ -179,9 +186,9 @@
       {
         "id": "teGs7HwZctw",
         "title": "두부를 만드는 중입니다 / 메이크 드라마 : MAD",
-        "date": "2026-06-14",
+        "date": "2026-06-18",
         "type": "long",
-        "category": "롱폼"
+        "category": "건붕이"
       },
       {
         "id": "vLXkiRBFyCI",
