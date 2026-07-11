@@ -253,29 +253,10 @@
         "design": "longform",
         "badge": "",
         "icon": "movie_edit",
-        "title": "롱폼 (Long-form) (편집점 0)",
+        "title": "롱폼 (Long-form)",
         "description": "",
         "price": "₩13,000",
         "priceUnit": "/ 분당",
-        "features": [
-          "맞춤형 그래픽 디자인",
-          "전문 컷편집 밑 자막 , 효과음 , bgm",
-          "수정 2회 무료"
-        ],
-        "cta": {
-          "label": "",
-          "href": ""
-        }
-      },
-      {
-        "slug": "long",
-        "design": "shortform",
-        "badge": "",
-        "icon": "movie_edit",
-        "title": "롱폼 (Long-form) (편집점 x)",
-        "description": "",
-        "price": "₩15,000",
-        "priceUnit": "",
         "features": [
           "맞춤형 그래픽 디자인",
           "전문 컷편집 밑 자막 , 효과음 , bgm",
