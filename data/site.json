@@ -146,11 +146,19 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
+      "미녕이데려오깨",
       "건붕이",
       "포트폴리오",
       "숏츠"
     ],
     "categoryEntries": [
+      {
+        "category": "미녕이데려오깨",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
       {
         "category": "건붕이",
         "title": "",
@@ -174,6 +182,13 @@
       }
     ],
     "videos": [
+      {
+        "id": "pXmdrbDSm6w",
+        "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️(멤버쉽 저쳇 영상)",
+        "date": "2026-07-12",
+        "type": "long",
+        "category": "미녕이데려오깨"
+      },
       {
         "id": "QAWJQj37xRc",
         "title": "모르면 손해보는 뉴비를 위한 스타레일 4.4 요약 및 픽업 공략",
