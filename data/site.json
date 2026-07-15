@@ -146,12 +146,20 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
+      "자막 디자인",
       "미녕이데려오깨",
       "건붕이",
       "포트폴리오",
       "숏츠"
     ],
     "categoryEntries": [
+      {
+        "category": "자막 디자인",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
       {
         "category": "미녕이데려오깨",
         "title": "",
@@ -182,6 +190,13 @@
       }
     ],
     "videos": [
+      {
+        "id": "i3EerBZbukQ",
+        "title": "자막 디자인",
+        "date": "",
+        "type": "long",
+        "category": "자막 디자인"
+      },
       {
         "id": "pXmdrbDSm6w",
         "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️(멤버쉽 저쳇 영상)",
