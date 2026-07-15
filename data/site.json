@@ -146,13 +146,20 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
+      "리뷰 & 정보영상",
       "게임  & 예능편집",
       "저챗",
-      "리뷰 & 컨텐츠",
       "자막 디자인",
       "숏츠"
     ],
     "categoryEntries": [
+      {
+        "category": "리뷰 & 정보영상",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
       {
         "category": "게임  & 예능편집",
         "title": "",
@@ -162,13 +169,6 @@
       },
       {
         "category": "저챗",
-        "title": "",
-        "meta": "",
-        "columns": null,
-        "singleColumnSize": ""
-      },
-      {
-        "category": "리뷰 & 컨텐츠",
         "title": "",
         "meta": "",
         "columns": null,
@@ -216,7 +216,7 @@
         "title": "모르면 손해보는 뉴비를 위한 스타레일 4.4 요약 및 픽업 공략",
         "date": "2026-07-05",
         "type": "long",
-        "category": "리뷰 & 컨텐츠"
+        "category": "리뷰 & 정보영상"
       },
       {
         "id": "FKPHYjnBwMI",
