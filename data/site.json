@@ -147,7 +147,7 @@
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
       "게임  & 예능편집",
-      "저쳇",
+      "저챗",
       "리뷰 & 컨텐츠",
       "자막 디자인",
       "숏츠"
@@ -161,7 +161,7 @@
         "singleColumnSize": ""
       },
       {
-        "category": "저쳇",
+        "category": "저챗",
         "title": "",
         "meta": "",
         "columns": null,
@@ -209,7 +209,7 @@
         "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️(멤버쉽 저쳇 영상)",
         "date": "2026-07-12",
         "type": "long",
-        "category": "저쳇"
+        "category": "저챗"
       },
       {
         "id": "QAWJQj37xRc",
@@ -251,14 +251,14 @@
         "title": "늦잠 저챗 영상 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "저쳇"
+        "category": "저챗"
       },
       {
         "id": "dHl8BDWmYZw",
         "title": "침착맨 저챗,먹방 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "저쳇"
+        "category": "저챗"
       },
       {
         "id": "-J-b59dYZCg",
