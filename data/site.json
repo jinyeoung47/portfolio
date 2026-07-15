@@ -146,36 +146,36 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
+      "게임  & 예능편집",
+      "저쳇",
+      "리뷰 & 컨텐츠",
       "자막 디자인",
-      "미녕이데려오깨",
-      "건붕이",
-      "포트폴리오",
       "숏츠"
     ],
     "categoryEntries": [
       {
+        "category": "게임  & 예능편집",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
+      {
+        "category": "저쳇",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
+      {
+        "category": "리뷰 & 컨텐츠",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
+      {
         "category": "자막 디자인",
-        "title": "",
-        "meta": "",
-        "columns": null,
-        "singleColumnSize": ""
-      },
-      {
-        "category": "미녕이데려오깨",
-        "title": "",
-        "meta": "",
-        "columns": null,
-        "singleColumnSize": ""
-      },
-      {
-        "category": "건붕이",
-        "title": "",
-        "meta": "",
-        "columns": null,
-        "singleColumnSize": ""
-      },
-      {
-        "category": "포트폴리오",
         "title": "",
         "meta": "",
         "columns": null,
@@ -191,6 +191,13 @@
     ],
     "videos": [
       {
+        "id": "_PtHq2090Kc",
+        "title": "멧챠 카멜레온 게임 합방",
+        "date": "2026-06-27",
+        "type": "long",
+        "category": "게임  & 예능편집"
+      },
+      {
         "id": "i3EerBZbukQ",
         "title": "자막 디자인",
         "date": "",
@@ -202,14 +209,14 @@
         "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️(멤버쉽 저쳇 영상)",
         "date": "2026-07-12",
         "type": "long",
-        "category": "미녕이데려오깨"
+        "category": "저쳇"
       },
       {
         "id": "QAWJQj37xRc",
         "title": "모르면 손해보는 뉴비를 위한 스타레일 4.4 요약 및 픽업 공략",
         "date": "2026-07-05",
         "type": "long",
-        "category": "건붕이"
+        "category": "리뷰 & 컨텐츠"
       },
       {
         "id": "FKPHYjnBwMI",
@@ -223,7 +230,7 @@
         "title": "두부를 만드는 중입니다 / 메이크 드라마 : MAD",
         "date": "2026-06-18",
         "type": "long",
-        "category": "건붕이"
+        "category": "게임  & 예능편집"
       },
       {
         "id": "vLXkiRBFyCI",
@@ -237,21 +244,21 @@
         "title": "늦잠 컨텐츠 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "포트폴리오"
+        "category": "게임  & 예능편집"
       },
       {
         "id": "BFpS3H_LSGA",
         "title": "늦잠 저챗 영상 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "포트폴리오"
+        "category": "저쳇"
       },
       {
         "id": "dHl8BDWmYZw",
         "title": "침착맨 저챗,먹방 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "포트폴리오"
+        "category": "저쳇"
       },
       {
         "id": "-J-b59dYZCg",
