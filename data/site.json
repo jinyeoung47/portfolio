@@ -146,20 +146,14 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
-      "리뷰 & 정보영상",
       "게임  & 예능편집",
       "저챗",
+      "리뷰 & 정보영상",
+      "Vlog",
       "자막 디자인",
       "숏츠"
     ],
     "categoryEntries": [
-      {
-        "category": "리뷰 & 정보영상",
-        "title": "",
-        "meta": "",
-        "columns": null,
-        "singleColumnSize": ""
-      },
       {
         "category": "게임  & 예능편집",
         "title": "",
@@ -169,6 +163,20 @@
       },
       {
         "category": "저챗",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
+      {
+        "category": "리뷰 & 정보영상",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
+      {
+        "category": "Vlog",
         "title": "",
         "meta": "",
         "columns": null,
@@ -190,6 +198,13 @@
       }
     ],
     "videos": [
+      {
+        "id": "owr1WbCILHo",
+        "title": "뉴비를 위한 국내 최초 스타레일 전시회 후기 / 별 사이를 걷는 회고록",
+        "date": "2026-07-24",
+        "type": "long",
+        "category": "Vlog"
+      },
       {
         "id": "XWDRR26DD1w",
         "title": "안보면 손해보는 뉴비를 위한 히메코 노바 후기",
