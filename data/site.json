@@ -199,6 +199,13 @@
     ],
     "videos": [
       {
+        "id": "uFRRmsO1urs",
+        "title": "멧챠 카멜레온 숨박꼭질 합방",
+        "date": "2026-06-27",
+        "type": "long",
+        "category": "게임  & 예능편집"
+      },
+      {
         "id": "POJxebEPnIk",
         "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️ -  (일부 공개)",
         "date": "2026-07-12",
@@ -218,13 +225,6 @@
         "date": "2026-07-18",
         "type": "long",
         "category": "리뷰 & 정보영상"
-      },
-      {
-        "id": "_PtHq2090Kc",
-        "title": "멧챠 카멜레온 게임 합방",
-        "date": "2026-06-27",
-        "type": "long",
-        "category": "게임  & 예능편집"
       },
       {
         "id": "i3EerBZbukQ",
@@ -270,14 +270,14 @@
       },
       {
         "id": "a-6MrKB3mLY",
-        "title": "늦잠 컨텐츠 포트폴리오",
+        "title": "컨텐츠 포트폴리오",
         "date": "",
         "type": "long",
         "category": "게임  & 예능편집"
       },
       {
         "id": "BFpS3H_LSGA",
-        "title": "늦잠 저챗 영상 포트폴리오",
+        "title": "버튜버 저챗 영상 포트폴리오",
         "date": "",
         "type": "long",
         "category": "저챗"
