@@ -146,8 +146,8 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
+      "저챗 영상",
       "게임  & 예능편집",
-      "저챗",
       "리뷰 & 정보영상",
       "Vlog",
       "자막 디자인",
@@ -155,14 +155,14 @@
     ],
     "categoryEntries": [
       {
-        "category": "게임  & 예능편집",
+        "category": "저챗 영상",
         "title": "",
         "meta": "",
         "columns": null,
         "singleColumnSize": ""
       },
       {
-        "category": "저챗",
+        "category": "게임  & 예능편집",
         "title": "",
         "meta": "",
         "columns": null,
@@ -210,7 +210,7 @@
         "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️ -  (일부 공개)",
         "date": "2026-07-12",
         "type": "long",
-        "category": "저챗"
+        "category": "저챗 영상"
       },
       {
         "id": "owr1WbCILHo",
@@ -238,7 +238,7 @@
         "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️ - (멤버쉽)",
         "date": "2026-07-12",
         "type": "long",
-        "category": "저챗"
+        "category": "저챗 영상"
       },
       {
         "id": "QAWJQj37xRc",
@@ -280,14 +280,14 @@
         "title": "버튜버 저챗 영상 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "저챗"
+        "category": "저챗 영상"
       },
       {
         "id": "dHl8BDWmYZw",
         "title": "침착맨 저챗,먹방 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "저챗"
+        "category": "저챗 영상"
       },
       {
         "id": "-J-b59dYZCg",
