@@ -43,7 +43,7 @@
     "eyebrow": "",
     "title": "영상 편집 브랜드에 \n 맞게  제작합니다.",
     "titleAccent": "브랜드",
-    "description": "시청 지속시간을 유지하기 위해 다양한 이미지 소스를 \n(수정 또는 제작으로) 활용하여 구성하는 것과 \n실용음악 전공 경험을 바탕으로 장면 분위기에 맞는 \n사운드 구성에 강점이 있습니다.\n특히 깔끔한 스타일의 편집부터 텐션감 있는 편집까지, \n콘텐츠 성격에 맞게 유연하게 작업 가능합니다.",
+    "description": "시청 지속시간을 유지하기 위해 다양한 이미지 소스를 활용하여 구성하는 것과\n전공 경험을 바탕으로 장면 분위기에 맞는 사운드 구성에 강점이 있습니다.\n특히 깔끔한 스타일의 편집부터 텐션감 있는 편집까지, \n콘텐츠 성격에 맞게 유연하게 작업 가능합니다.",
     "statusLabel": "Status",
     "statusText": "READY FOR CUSTOMIZATION",
     "actions": [
@@ -75,13 +75,8 @@
             "description": ""
           },
           {
-            "title": "- 요시요 아카데미 4기 우수 수료생",
-            "period": "2026.3",
-            "description": ""
-          },
-          {
-            "title": "- 미녕이데려오깨",
-            "period": "2026.6 ~ 8",
+            "title": "요시요 아카데미 4기 우수 수료 (편집)",
+            "period": "2026.3 ~2026.5",
             "description": ""
           }
         ],
@@ -137,30 +132,30 @@
     "categoryStackTypeFilterEnabled": true,
     "categoryStackSingleColumnSize": "medium",
     "categoryOrder": [
-      "게임  & 예능편집",
-      "저챗 영상",
       "리뷰 & 정보영상",
+      "광고",
+      "예능편집",
       "Vlog",
       "자막 디자인",
       "숏츠"
     ],
     "categoryEntries": [
       {
-        "category": "게임  & 예능편집",
-        "title": "",
-        "meta": "",
-        "columns": null,
-        "singleColumnSize": ""
-      },
-      {
-        "category": "저챗 영상",
-        "title": "",
-        "meta": "",
-        "columns": null,
-        "singleColumnSize": ""
-      },
-      {
         "category": "리뷰 & 정보영상",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
+      {
+        "category": "광고",
+        "title": "",
+        "meta": "",
+        "columns": null,
+        "singleColumnSize": ""
+      },
+      {
+        "category": "예능편집",
         "title": "",
         "meta": "",
         "columns": null,
@@ -197,18 +192,11 @@
         "category": "리뷰 & 정보영상"
       },
       {
-        "id": "kukTWQEUfL0",
-        "title": "안보면 손해보는 뉴비를 위한 토오사카 린 후기",
-        "date": "2026-07-25",
-        "type": "long",
-        "category": "리뷰 & 정보영상"
-      },
-      {
         "id": "POJxebEPnIk",
         "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️ -  (일부 공개)",
         "date": "2026-07-12",
         "type": "long",
-        "category": "저챗 영상"
+        "category": "예능편집"
       },
       {
         "id": "owr1WbCILHo",
@@ -232,13 +220,6 @@
         "category": "자막 디자인"
       },
       {
-        "id": "pXmdrbDSm6w",
-        "title": "안 싸우고 사이좋은 몽글몽글한 영상♥️ - (멤버쉽)",
-        "date": "2026-07-12",
-        "type": "long",
-        "category": "저챗 영상"
-      },
-      {
         "id": "QAWJQj37xRc",
         "title": "모르면 손해보는 뉴비를 위한 스타레일 4.4 요약 및 픽업 공략",
         "date": "2026-07-05",
@@ -257,7 +238,7 @@
         "title": "두부를 만드는 중입니다 / 메이크 드라마 : MAD",
         "date": "2026-06-18",
         "type": "long",
-        "category": "게임  & 예능편집"
+        "category": "광고"
       },
       {
         "id": "vLXkiRBFyCI",
@@ -271,21 +252,14 @@
         "title": "컨텐츠 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "게임  & 예능편집"
-      },
-      {
-        "id": "BFpS3H_LSGA",
-        "title": "버튜버 저챗 영상 포트폴리오",
-        "date": "",
-        "type": "long",
-        "category": "저챗 영상"
+        "category": "예능편집"
       },
       {
         "id": "dHl8BDWmYZw",
         "title": "침착맨 저챗,먹방 포트폴리오",
         "date": "",
         "type": "long",
-        "category": "저챗 영상"
+        "category": "예능편집"
       },
       {
         "id": "erDXklmVmro",
@@ -412,13 +386,13 @@
   },
   "contact": {
     "eyebrow": "CONTACT",
-    "title": "디스코드나 \n이메일로 연락주세요",
-    "titleAccent": "디스코드",
-    "description": "-급한 일이 생기지 않는 이상 연락 매우 빠르게 됩니다.\n-영상에 따라 다르겠지만 작업은 보통 3~4일 소요됩니다.\n-제작된 작업물은 포트폴리오로 사용될 수 있습니다.",
+    "title": "이메일이나 \n디스코드로 연락주세요",
+    "titleAccent": "이메일",
+    "description": "-급한 일이 생기지 않는 이상 연락 매우 빠르게 됩니다.\n-영상에 따라 다르겠지만 작업은 보통 1~4일 소요됩니다.\n-제작된 작업물은 포트폴리오로 사용될 수 있습니다.",
     "primaryCard": {
-      "label": "discord",
-      "value": "jinyeoung_",
-      "note": "메세지로 의뢰 보내주실때 양식에 따라 보내주세요!",
+      "label": "email",
+      "value": "jinyeoung0828@gmail.com",
+      "note": "",
       "icon": "person",
       "href": ""
     },
@@ -428,8 +402,8 @@
         "value": "09:00~23:00"
       },
       {
-        "label": "email",
-        "value": "jinyeoung0828@gmail.com"
+        "label": "discord",
+        "value": "jinyeoung_"
       }
     ]
   },
